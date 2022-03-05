@@ -1,0 +1,56 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    font-size: x-large;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+nav{
+    width: 60vw;
+    margin-top: 10px;
+}
+
+.bigImage{
+    width: 95vw;
+    margin: 1rem;
+    margin-bottom: 4rem;  /* 1 rem = 60 pxl*/
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container>div{
+    text-align: center;
+    margin: 2rem;
+}
+
+.container>div>p{
+    font-size: x-large;
+    line-height: 1.5rem;
+} 
+footer{
+    text-align: center;
+    background-color:black;
+    color:white;
+    height: 4rem;
+}
+footer>p{
+    padding: 1rem;  /*padding used to get the footer (Pepcoding 2k22)at center*/
+}
