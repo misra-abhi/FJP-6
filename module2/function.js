@@ -30,12 +30,12 @@ console.log("The product of given number is: " + mult);
 
 
       // IIFE :- Immediately invoked function expression
-        (funciton(){
-            console.log("Hello from IIFE");
-        })();
+        // (funciton(){
+        //     console.log("Hello from IIFE");
+        // })();
 
 
-      // IIFE wirh parameter
-      (function(num1,num2){
-          console.log(num1/num2);
-      })(10,5);
+    //   // IIFE wirh parameter
+    //   (function(num1,num2){
+    //       console.log(num1/num2);
+    //   })(10,5);
